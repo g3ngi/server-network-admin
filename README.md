@@ -1,2 +1,2 @@
 # server-network-admin
-hohoho
+buat latihan pas matkul sysadmin
