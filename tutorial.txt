@@ -1,0 +1,32 @@
+CARA PUSH
+1. git clone repository_link
+2. git add .
+3. git commit -m "message_utk_versi_ini"
+4. JIKA BELOM CONFIG:
+   4.1 git config --global user.email "email github"
+   4.2 git config --global user.name "username github"
+  
+   JIKA SUDAH LANJUT STEP 5
+
+5. Lanjut buat token repository untuk authentication: 
+   5.1 click profile -> settings -> Developer Settings -> Personal access tokens -> Tokens(classic)
+   5.2 click "Generate new token"
+   5.3 click "Generate new token (classic):
+   5.4 untuk settingan scopes terserah kalian
+   5.5 expiration dates terserah kalian
+   5.6 ketika kelar generate token
+   5.7 JANGAN LUPA CATET TOKENNYA KARENA GK BAKAL BISA DILIHAT LAGI
+
+6. git push origin main
+7. viola kelar ✨
+
+CARA PULL REQUEST
+1. fork repository yg kita mau
+2. git push code ke forked repo (tutorial push ada di atas)
+3. access main repository yang kita mau
+4. click pull requests
+5. new pull requests
+6. create pull request
+7. trus paste codenya
+8. tunggu di cek apakah code versi kita sm punya org lain sama ato engga
+9. submite request
